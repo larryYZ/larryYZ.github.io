@@ -1,7 +1,12 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 function App(){
-    return <h1>Hello World</h1>;
+    return (
+        <div id="start">
+            <Navigation />
+        </div>
+    );
 }
 
 export default App;
