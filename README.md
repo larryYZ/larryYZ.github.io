@@ -1,2 +1,1 @@
-# larryYZ.github.io
-Personal Website
+This is my personal website built with React. It gives an overview of my background and portfolio. My resume and academic record are also accessible.
