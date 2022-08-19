@@ -1,0 +1,92 @@
+/* Navigation bar style */
+
+#navbar-top-level {
+  background-color: #002B5B;
+  font-weight: 600;
+  color: #F9F5EB;
+  
+}
+
+#navbar-home {
+  color: #EAE3D2;
+}
+
+#navbar-item {
+  color: #EAE3D2;
+}
+
+
+@media (min-width: 1028px) {
+  #navbar-top-level {
+    padding: 15px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+
+  #navbar-top-level #navbar-home {
+    font-size: 1.6em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  #navbar-top-level #navbar-item {
+    font-size: 1.3em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+
+/* Greeting style */
+
+.profile-photo {
+  border-radius: 50%;
+  height: 260px;
+}
+
+header {
+  text-align: center;
+  color: #EAE3D2;
+  background: #256D85;
+}
+
+header .container {
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header .intro .greeting-text
+{
+  display: block;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+header .intro .language {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+
+
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  color: black;
+  font-size: 16px;
+}
+
+
+
+
