@@ -13,9 +13,8 @@ function Navigation(){
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Nav.Link id="navbar-item" href="#about">About</Nav.Link>
-            <Nav.Link id="navbar-item" href="#education">Education</Nav.Link>
             <Nav.Link id="navbar-item" href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link id="navbar-item" href="#about">About</Nav.Link>
             <Nav.Link id="navbar-item" href="#contact">Contact</Nav.Link>
             <Nav.Link id="navbar-item" href="#resume">Resume</Nav.Link>
           </Nav>

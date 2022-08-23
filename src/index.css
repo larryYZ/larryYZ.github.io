@@ -77,9 +77,64 @@ header .intro .language {
 
 
 
+/* Portfolio Style */
+
+.portfolio-section {
+  padding: 6rem 0;
+}
+ .section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color:#002B5B;
+}
+@media (min-width: 992px) {
+ .section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+/* About Style */
 
 
+.about-section{
+  background-color: #256D85;
+  padding: 6rem 0;
+}
 
+.about-heading{
+  color: #EAE3D2;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  margin-top: 30px;
+
+}
+
+/* Contact Style */
+
+.contact-section {
+  padding: 6rem 0;
+  width: 40%;
+}
+
+.contact-row {
+  padding-top: 3rem;
+}
+
+/* General */
 body {
   font-family: Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -87,6 +142,14 @@ body {
   font-size: 16px;
 }
 
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 2rem;
+  }
+}
 
 
 
