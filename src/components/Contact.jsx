@@ -16,7 +16,6 @@ function Contact(){
           <a href="https://github.com/larryYZ">
             <AiFillGithub  size={50}/>
           </a>
-          
         </div>
         <div class="col-sm">
           <a href="https://www.linkedin.com/in/larry-zhang-tech">
