@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/courses.01ad0c23.png"
   },
   {
-    "revision": "2afc44cbffa4d6ceda400df123655b61",
+    "revision": "6f61d2bb1b25ba1dd59c3b92b66479fc",
     "url": "/index.html"
   }
 ];
