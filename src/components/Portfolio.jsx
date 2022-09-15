@@ -12,32 +12,45 @@ function Portfolio (){
   const projectProperties = [
     {
       photo: api,
-      modalHeading: "Stock Trading Game",
-      modalBody: "A game to practice technical analysis. built with React and tradingview API"
+      siteLink: "https://fruit-trees-api.herokuapp.com/Appletrees",
+      githubLink: "https://github.com/larryYZ/fruit-trees-api",
+      modalHeading: "Fruit Tree API",
+      modalBody: "A REST API that provides essential data on fruit trees, filling the void of a underserved area. It was built with MongoDB Atlas, NodeJS and Express, and is hosted live on Heroku"
+
     }, 
     {
       photo: fullStack,
-      modalHeading: "Reminder Website",
+      siteLink: "https://apple-planting-planner.herokuapp.com/",
+      githubLink: "https://github.com/larryYZ/apple-planting-planner",
+      modalHeading: "Apple Planting Planner",
       modalBody: "Full stack development utilizing Express, node.js, mangoDB"
     },
     {
       photo: web3,
-      modalHeading: "Web3",
-      modalBody: "Web3 app with Motoko"
+      siteLink: "",
+      githubLink: "",
+      modalHeading: "Web3 project with Motoko",
+      modalBody: "In progress, coming soon"
     },
     {
       photo: ecomm,
-      modalHeading: "e-commerce platform",
+      siteLink: "",
+      githubLink: "https://github.com/larryYZ/store-management-system",
+      modalHeading: "E-commerce platform",
       modalBody: "Built front end online platform for a store that is going online with JavaFX"
     },
     {
       photo: android,
-      modalHeading: "BMI calculator",
-      modalBody: "Android app built with cutting edge android technology"
+      siteLink: "",
+      githubLink: "https://github.com/larryYZ/android-app-the-caps-game",
+      modalHeading: "The Caps game",
+      modalBody: "This Android app retrieves data from the countryAPI, and composes questions asking players to match capitals and their corresponding countries. The User Interface checks the answers and provides a score and a log"
     },
     {
       photo: ml,
-      modalHeading: "using ML to analyse wine quality from concentration of chemicals",
+      siteLink: "",
+      githubLink: "https://github.com/larryYZ/wine-quality-prediciton-machine-learning",
+      modalHeading: "Wine quality predictions using Machine Learning",
       modalBody: "tensorflow and jupytor notebook"
     },
   ];
@@ -49,6 +62,8 @@ function Portfolio (){
       photo={item.photo}
       modalHeading={item.modalHeading}
       modalBody={item.modalBody}
+      siteLink={item.siteLink}
+      githubLink={item.githubLink}
     />
   });
 
@@ -63,6 +78,7 @@ function Portfolio (){
       </div>
     </section>);
 }
+
 
 
 export default Portfolio;

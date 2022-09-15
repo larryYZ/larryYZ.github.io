@@ -27,13 +27,19 @@ function Project(props){
        </Modal.Title>
      </Modal.Header>
      <Modal.Body>
-       <img class="img-fluid" src={props.photo} alt="..." />
-       <p>
+      <img class="img-fluid" src={props.photo} alt="..." />
+      <p>
         {props.modalBody}
-       </p>
+      </p>
      </Modal.Body>
      <Modal.Footer>
-       <Button onClick={handleClose}>Close</Button>
+      <a href={props.siteLink}>
+        {(props.siteLink !== "") && <Button>Visit Site</Button>}
+      </a>
+      <a href={props.githubLink}>
+        {(props.githubLink !== "") && <Button>View on GitHub</Button>}
+      </a>
+      <Button onClick={handleClose}>Close</Button>
      </Modal.Footer>
    </Modal>
    </div>

@@ -31,7 +31,7 @@ function About() {
           alt="past career"
         />
         <Carousel.Caption>
-          <h3>I started my career in finance, and after witnessing first hand how technology could deeply transform the finance industry and others, I decided to build solid skill sets in tech</h3>
+          <h3>I started my career in finance. After witnessing first-hand how technology could disrupt the industry, I decided to build a career in tech</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
