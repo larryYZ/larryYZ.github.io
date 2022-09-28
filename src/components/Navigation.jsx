@@ -16,7 +16,7 @@ function Navigation(){
             <Nav.Link id="navbar-item" href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link id="navbar-item" href="#about">About</Nav.Link>
             <Nav.Link id="navbar-item" href="#contact">Contact</Nav.Link>
-            <Nav.Link id="navbar-item" href="#resume">Resume</Nav.Link>
+            <Nav.Link id="navbar-item" href="https://drive.google.com/file/d/1Mi6jlBVoomYxWKJZlVUMDFKrmyGHPsHW/view?usp=sharing">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
