@@ -33,9 +33,9 @@ function Project(props){
       </p>
      </Modal.Body>
      <Modal.Footer>
-      <a href={props.siteLink}>
+      {/* <a href={props.siteLink}>
         {(props.siteLink !== "") && <Button>Visit Site</Button>}
-      </a>
+      </a> */}
       <a href={props.githubLink}>
         {(props.githubLink !== "") && <Button>View on GitHub</Button>}
       </a>

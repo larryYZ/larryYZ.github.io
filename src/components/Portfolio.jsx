@@ -15,7 +15,7 @@ function Portfolio (){
       siteLink: "https://fruit-trees-api.herokuapp.com/Appletrees",
       githubLink: "https://github.com/larryYZ/fruit-trees-api",
       modalHeading: "Fruit Tree API",
-      modalBody: "This is a REST API that provides essential data on fruit trees, filling the void of a underserved area. It was built with MongoDB, NodeJS and Express, and is hosted live on Heroku."
+      modalBody: "This is a REST API that provides essential data on fruit trees, filling the void of a underserved area. It was built with MongoDB, NodeJS and Express"
 
     }, 
     {
@@ -23,7 +23,7 @@ function Portfolio (){
       siteLink: "https://apple-planting-planner.herokuapp.com/",
       githubLink: "https://github.com/larryYZ/apple-planting-planner",
       modalHeading: "Apple Planting Planner",
-      modalBody: "The Apple Planting Planner is a full stack development project utilizing React, Express, node.js. It uses the Fruit Tree API as its backend component."
+      modalBody: "The Apple Planting Planner is a full stack development project utilizing React, Express, NodeJS. It uses the Fruit Tree API as its backend component."
     },
     {
       photo: web3,
@@ -51,7 +51,7 @@ function Portfolio (){
       siteLink: "",
       githubLink: "https://github.com/larryYZ/wine-quality-prediciton-machine-learning",
       modalHeading: "Wine quality predictions using Machine Learning",
-      modalBody: "This project analyzes large dataset using Jupyter Notebook and TensorFlow."
+      modalBody: "This project analyzes large dataset using Jupyter Notebook and TensorFlow. It harnesses the power of Machine Learning to predict wine quality with data"
     },
   ];
   
