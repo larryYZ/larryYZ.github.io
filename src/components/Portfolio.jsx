@@ -27,10 +27,10 @@ function Portfolio (){
     },
     {
       photo: web3,
-      siteLink: "",
+      siteLink: "https://drive.google.com/file/d/1Eqa2Od6UC5MNeIu2n-UB78v4n6LsfUer/view?usp=drive_link",
       githubLink: "",
-      modalHeading: "Web3 project with Motoko",
-      modalBody: "In progress, coming soon"
+      modalHeading: "Blockchain Project",
+      modalBody: "Building a ERC20 token - LarryCoin"
     },
     {
       photo: ecomm,
