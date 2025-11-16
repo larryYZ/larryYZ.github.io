@@ -21,7 +21,7 @@ function About() {
           alt="courses taken"
         />
         <Carousel.Caption>
-          <h3>I am currently a third year student in the Computer Science program at York University</h3>
+          <h3>I worked as a software engineer for a Toronto-based software company and recently had the opportunity to relocate to New York City.</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -31,7 +31,7 @@ function About() {
           alt="past career"
         />
         <Carousel.Caption>
-          <h3>I started my career in finance. After witnessing how technology could disrupt the industry, I decided to build a second career in tech</h3>
+          <h3>I started my career in finance, but witnessing the growing impact of technology on the industry inspired me to pivot and build a second career in software engineering.</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
